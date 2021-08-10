@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PersonForm</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src='js/bootstrap.min.js'></script>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h2>Person Form</h2>
+        <div class="modal-header"></div>
+        <br>
+        <form>
+
+            <div class="alert alert-danger alert-dismissible">Error Message
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+
+            <div class="row">
+
+                <div class="form-group col-2">
+                    <label>Title</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Mr/Mrs.">
+                    </div>
+                </div>
+
+                <div class="form-group col-5">
+                    <label>First Name</label>
+                    <input type="text" class="form-control" placeholder="Chee Kin">
+                </div>
+
+                <div class="form-group col-5">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control" placeholder="Lim">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-6">
+                    <div class="dropdown">
+                        <label>Gender</label><br>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="">
+                            <span class="input-group-text dropdown-toggle" data-bs-toggle="dropdown""> </span>
+                            <ul class=" dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Male</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Female</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group col-6">
+                    <label>Date of Birth</label>
+                    <input type="text" class="form-control" placeholder="dd/mm/yyyy">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label>Address</label>
+                    <input type="text" class="form-control" placeholder="Street">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-6">
+                    <label> </label>
+                    <input type="text" class="form-control" placeholder="City">
+                </div>
+                <div class="form-group col-6">
+                    <label> </label>
+                    <input type="text" class="form-control" placeholder="State">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-6">
+                    <label> </label>
+                    <input type="text" class="form-control" placeholder="Post Code">
+                </div>
+                <div class="form-group col-6">
+                    <div class="dropdown">
+                        <label> </label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Country">
+                            <span class="input-group-text dropdown-toggle" data-bs-toggle="dropdown""> </span>
+                    <ul class=" dropdown-menu">
+                                <li><a class="dropdown-item" href="#">India</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">UK</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="modal-footer"></div>
+            <button type="button" class="btn btn-primary offset-9 col-3" data-bs-dismiss="modal">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>

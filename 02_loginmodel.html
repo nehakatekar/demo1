@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Modal</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <script src='js/bootstrap.min.js'></script>
+</head>
+
+<body>
+    <br>
+    <button type="button" class="btn btn-primary offset-11" data-bs-toggle="modal" data-bs-target="#m">Login</button>
+
+    <div class="modal fade" id="m" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">User Name</label>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Login UserName">
+                    </div>
+
+                    <br>
+
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">Password</label>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Login Password">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Login</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
